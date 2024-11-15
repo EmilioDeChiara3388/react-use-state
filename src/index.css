@@ -14,9 +14,9 @@ header {
     margin: auto;
 }
 
-.buttonList {
+.buttonRow {
     display: flex;
-    margin: 2rem 0;
+    padding: 2rem 0;
     gap: 1rem;
 }
 
@@ -25,4 +25,17 @@ button {
     background-color: blue;
     color: white;
     border-radius: 0.5rem;
+}
+
+.descriptionBox {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    h3 {
+        margin-bottom: 0.5rem;
+    }
 }

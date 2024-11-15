@@ -11,13 +11,23 @@ function App() {
       <AppHeader />
       <main>
         <div className="container">
-          <div className="buttonList">
+          <div className='buttonRow'>
             {languages.map((item, index) =>
-              <div className='buttonRow' key={item.id}>
+
+              <div key={item.id}>
                 <button>{item.title}</button>
               </div>
+
             )}
           </div>
+
+          {languages.map((item, index) =>
+            <div className='descriptionBox' key={index}>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          )}
+
         </div>
       </main>
     </>
