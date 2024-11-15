@@ -8,3 +8,21 @@ header {
     background-color: lightgray;
     padding: 1rem;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.buttonList {
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+}
