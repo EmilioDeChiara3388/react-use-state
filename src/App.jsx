@@ -28,10 +28,6 @@ function App() {
               </div>
             )}
           </div>
-
-          {/* {languages.map((item, index) =>
-            
-          )} */}
         </div>
       </main>
     </>
